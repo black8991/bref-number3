@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap');
+
+body {
+    position: absolute;
+    width: 1250px;
+    height: 3600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#cuntente-of-hero{
+    color: #f1f0f0;
+    margin-left: 15%;
+   display: flex;
+   flex-direction: column;
+}
+#header-img-p{
+ padding: 10px;
+ text-align: center;
+ border:2px solid #f1f0f0;
+ border-radius: 15px;
+}
+header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 1038px;
+    
+}
+
+nav {
+    background-color:#f1f0f0;
+    position: absolute;
+    width: 100%;
+    height: 42px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#leftnave {
+    height: 100%;
+    font-family: 'Allerta Stencil', sans-serif;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#rightnave {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+}
+
+#navbaricons {
+
+    width: 138px;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    align-items: center;
+}
+
+#navbartitels {
+    border-right: 2px solid rgb(185, 183, 183);
+    width: 318px;
+    height: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#imgheader {
+    top: 200px;
+    background-image: url('Img0.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    height: 646px;
+    display: flex;
+    align-items:center ;
+    
+
+}
+
+main {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.fader-gropes-card-product {
+    position: absolute;
+    width: 100%;
+    height: 1038px;
+    top: 1038px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.chalid-gropes-card-product {
+    position: relative;
+    width: 100%;
+    height: 472px;
+    ;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card-product {
+    position: relative;
+
+    width: 380px;
+    height: 100%;
+}
+
+img {
+    position: relative;
+    width: 100%;
+    height: 380px;
+
+}
+
+.bottom-of-Card {
+
+    width: 100%;
+    height: 83px;
+}
+
+h4 {
+    position: relative;
+    width: 80%;
+    font-size: 15px;
+    font-family: 'Allerta Stencil', sans-serif;
+
+}
+
+.p-of-header {
+
+    position: relative;
+    width: 80%;
+    left: 0px;
+    font-size: 20px;
+    color: goldenrod;
+    bottom: 0px;
+
+
+}
+
+.about-section {
+    position: absolute;
+    left: 50px;
+    width: 1150px;
+    height: 1425px;
+    top: 2077px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#about {
+    position: absolute;
+    top: 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#IMG01 {
+    background-image: url('Img01.png');
+}
+
+#IMG02 {
+    background-image: url('Img02.png');
+}
+
+.h-ofsectiontwo {
+    width: 100%;
+}
+
+.imgfor-sectiontwo {
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+    height: 300px;
+
+}
+
+hr {
+    margin-top: 15px;
+    width: 90%;
+    color: rgb(36, 34, 34);
+
+}
+
+footer {
+    position: absolute;
+    border-color: aliceblue;
+    border-top: 2px solid rgb(109, 94, 94);
+    width: 100%;
+    height: 100px;
+    top: 3502px;
+    display: flex;
+    justify-content: space-between;
+   
+
+}
+
+#right-footer {
+   width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+#footer-icon {
+    position: absolute;
+    display: flex;
+    gap: 20px;
+    bottom: 25px;
+    justify-content: flex-end;
+
+}
+
+.icon {
+    left: 50px;
+    width: 15px;
+    height: 15px;
+    margin-right: 0px;
+    top:15px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+#input-elm {
+    list-style-type: none;
+    width:100%;
+    display: flex;
+    justify-content:space-between;
+}
+
+footer > ul {
+    list-style-type: none;
+    margin-top: 35px;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+#canter-list{
+    width: 100%;
+    left: 0px;
+}
+
+
+#burger-menu {
+    display: none;
+}
+
+@media screen and (max-width:965px) {
+
+#burger-menu {
+        
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: rgb(220, 219, 219);
+    width: 30%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    display:block;
+}
+
+#clos {
+    width: auto;
+    height: 30%;
+    display: flex;
+    align-self: flex-end;
+}
+
+#menu-all {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+ }
+}
